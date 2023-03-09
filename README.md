@@ -43,14 +43,14 @@ Place the SHREC2023 dataset folder "PCLChange", in the main folder. The structur
  		
 
 ## Training
-###SiamVFE
+### SiamVFE
 - on lidar data
  `python main_siamvfe.py --batch_size 32 --num_workers 4 --data lidar`
  
 - on synthetic data
  `python main_siamvfe.py --batch_size 32 --num_workers 4 --data synthetic`
  
-###SiamGCN-GCA 
+### SiamGCN-GCA 
 - on lidar data
  `python main_siamgcn_gca.py --batch_size 16 --num_workers 4 --data lidar`
  
